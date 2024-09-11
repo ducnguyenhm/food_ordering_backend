@@ -11,7 +11,7 @@ router.get(
       .trim()
       .notEmpty()
       .withMessage("RestaurantId paramenter must be a valid string"),
-    RestaurantController.searchRestaurant
+    RestaurantController.getRestaurant
 );
 
 router.get(
